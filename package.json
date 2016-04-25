@@ -1,10 +1,16 @@
 {
-  "private": true,
+  "private": false,
   "engines": {
     "node": ">=0.10.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shahamitr/versatile.git"
+  },
   "scripts": {
     "test": "gulp test"
+    "start": "node server.js",
+    "postinstall": "bower install"
   },
   "devDependencies": {
     "apache-server-configs": "^2.11.0",
